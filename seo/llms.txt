@@ -1,0 +1,46 @@
+# Fil Monde
+
+> Agrégateur d'actualité mondiale : ce que disent des dizaines de rédactions du même événement,
+> pays par pays, avec chronologie et comparaison des angles. Interface française et anglaise.
+
+Fil Monde regroupe les dépêches de rédactions internationales et nationales (BBC, Al Jazeera,
+France 24, Le Monde, Jeune Afrique, Hespress, SCMP, folha de S.Paulo, etc.), les regroupe par
+événement, et publie pour chaque événement une synthèse originale : réponse en trois phrases,
+chronologie horodatée, tableau « qui dit quoi », chiffres clés sourcés.
+
+Le site ne republie jamais un article : chaque source est citée, créditée et liée. Les extraits
+sont limités à 150 caractères par événement.
+
+Chaque jour, un bulletin vidéo vertical de 45 à 75 secondes résume les événements majeurs, publié
+sur le site et sur YouTube Shorts, TikTok, Instagram Reels et X.
+
+## Pages principales
+
+- [Accueil](https://filmonde.example/fr): carte du monde et fil d'actualité filtrable par pays, région et thème
+- [Un événement](https://filmonde.example/fr/evenement): exemple de page événement (synthèse, chronologie, qui dit quoi)
+- [Un pays](https://filmonde.example/fr/pays/ma): page pays — Maroc
+- [Vidéos](https://filmonde.example/fr/videos): le bulletin quotidien
+- [Sources](https://filmonde.example/fr/sources): catalogue des rédactions suivies, avec statut de disponibilité
+- [À propos](https://filmonde.example/fr/a-propos): qui édite le site, comment il est financé
+
+## Langues
+
+Le site existe en cinq langues : `fr` (défaut), `en`, `de`, `es`, `it`. Chaque page déclare ses
+cinq alternates hreflang plus `x-default`.
+
+Les sources arabophones (Hespress, Al Jazeera, Asharq Al-Awsat, BBC Arabic, Sky News Arabia, France
+24 AR) sont couvertes : leur titre est **reformulé** dans la langue du lecteur, et le titre original
+reste affiché avec attribution. Le corps des articles sources n'est jamais traduit ni republié.
+
+## Citabilité
+
+- Les faits sont datés et attribués : chaque affirmation renvoie à la rédaction qui la porte.
+- Les pages événement portent une date de dernière mise à jour visible.
+- En cas de correction, la page est mise à jour et la date `dateModified` change ; l'historique
+  des corrections est public sur la page « corrections ».
+- Le contenu est accessible sans inscription, sans paywall et sans exécution de JavaScript.
+
+## Contact
+
+- Éditorial : redaction@filmonde.example
+- Retrait de contenu : retrait@filmonde.example (traitement sous 48 h)

@@ -1,0 +1,77 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  Fil Monde — robots.txt
+#  Production : https://filmonde.example   (à remplacer au déploiement)
+#
+#  Politique : OUVERTE, y compris aux crawlers IA.
+#
+#  Ce site agrège et synthétise ; il ne publie aucun texte intégral. Être crawlé
+#  puis cité est le produit, pas un risque. Bloquer GPTBot ou PerplexityBot
+#  reviendrait à disparaître des réponses générées sans rien protéger.
+#  Voir SEO.md § 5 pour l'arbitrage et les alternatives.
+# ═══════════════════════════════════════════════════════════════════════════
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/static/chunks/
+Disallow: /*/recherche?
+
+# ── Moteurs de recherche classiques ────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Qwantify
+Allow: /
+
+# ── Moteurs de réponse IA ──────────────────────────────────────────────────
+# OAI-SearchBot   : index de ChatGPT Search  (le plus important ici)
+# ChatGPT-User    : requête déclenchée par un utilisateur
+# GPTBot          : entraînement OpenAI
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ── Sitemaps ───────────────────────────────────────────────────────────────
+Sitemap: https://filmonde.example/sitemap.xml
+Sitemap: https://filmonde.example/sitemap-evenements.xml
+Sitemap: https://filmonde.example/sitemap-pays.xml
+Sitemap: https://filmonde.example/sitemap-videos.xml

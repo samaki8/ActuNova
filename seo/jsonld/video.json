@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "@id": "https://filmonde.example/fr/videos/bulletin-2026-11-05#video",
+  "name": "Ce qui s'est passé au Sahel cette semaine",
+  "description": "Le bulletin du 5 novembre 2026 : Mali, Burkina Faso et Niger, d'après 9 rédactions.",
+  "inLanguage": "fr",
+  "uploadDate": "2026-11-05T07:30:00+01:00",
+  "dateModified": "2026-11-05T07:30:00+01:00",
+  "duration": "PT1M8S",
+  "isFamilyFriendly": true,
+  "isAccessibleForFree": true,
+  "thumbnailUrl": [
+    "https://filmonde.example/img/videos/bulletin-2026-11-05-maxres.jpg",
+    "https://filmonde.example/img/videos/bulletin-2026-11-05-hq.jpg"
+  ],
+  "contentUrl": "https://cdn.filmonde.example/videos/bulletin-2026-11-05-1080x1920.mp4",
+  "embedUrl": "https://filmonde.example/fr/videos/bulletin-2026-11-05/embed",
+  "url": "https://filmonde.example/fr/videos/bulletin-2026-11-05",
+  "publisher": { "@id": "https://filmonde.example/#organization" },
+  "about": [
+    { "@type": "Country", "name": "Mali", "identifier": "ML" },
+    { "@type": "Country", "name": "Burkina Faso", "identifier": "BF" },
+    { "@type": "Country", "name": "Niger", "identifier": "NE" }
+  ],
+  "transcript": "Ce qui s'est passé au Sahel cette semaine. Lundi, ... (transcription intégrale du script, 900 à 1 200 caractères)",
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Mali : reprise des négociations",
+      "startOffset": 0,
+      "endOffset": 22,
+      "url": "https://filmonde.example/fr/videos/bulletin-2026-11-05?t=0"
+    },
+    {
+      "@type": "Clip",
+      "name": "Burkina Faso : déplacement de population",
+      "startOffset": 22,
+      "endOffset": 45,
+      "url": "https://filmonde.example/fr/videos/bulletin-2026-11-05?t=22"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Rendus et figures (PNG, SVG, cartes video, globe)
+pillow>=10.0
+
+# Uniquement pour tools/make_globe.py (projection orthographique vectorisee).
+# Le reste fonctionne sans numpy.
+numpy>=1.26

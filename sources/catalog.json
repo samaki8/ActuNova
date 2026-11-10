@@ -1,0 +1,821 @@
+{
+  "note": "Catalogue de sources. Chaque entree est testee par tools/check_feeds.py. 'type' = rss | google_news | api. 'licence' = condition de publication estimee.",
+  "entries": [
+    {
+      "id": "euronews-all",
+      "name": "Euronews",
+      "country": "EU",
+      "region": "Europe",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.euronews.com/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "politico-eu",
+      "name": "Politico Europe",
+      "country": "BE",
+      "region": "Europe",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.politico.eu/feed/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "reuters-world",
+      "name": "Reuters (monde)",
+      "country": "GB",
+      "region": "Europe",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://feeds.reuters.com/reuters/worldNews",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "bbc-world-http",
+      "name": "BBC World",
+      "country": "GB",
+      "region": "Europe",
+      "lang": "en",
+      "type": "rss",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "dw-all",
+      "name": "Deutsche Welle (all)",
+      "country": "DE",
+      "region": "Europe",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://rss.dw.com/xml/rss-en-all",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "france24-fr",
+      "name": "France 24",
+      "country": "FR",
+      "region": "Europe",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://www.france24.com/fr/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "cbc-top",
+      "name": "CBC News",
+      "country": "CA",
+      "region": "Amerique du Nord",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.cbc.ca/cmlink/rss-topstories",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "globalnews",
+      "name": "Global News",
+      "country": "CA",
+      "region": "Amerique du Nord",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://globalnews.ca/feed/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "ctv-top",
+      "name": "CTV News",
+      "country": "CA",
+      "region": "Amerique du Nord",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "radio-canada",
+      "name": "Radio-Canada",
+      "country": "CA",
+      "region": "Amerique du Nord",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://ici.radio-canada.ca/rss/4159",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "cnn-top",
+      "name": "CNN (top stories)",
+      "country": "US",
+      "region": "Amerique du Nord",
+      "lang": "en",
+      "type": "rss",
+      "url": "http://rss.cnn.com/rss/cnn_topstories.rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "fox-latest",
+      "name": "Fox News",
+      "country": "US",
+      "region": "Amerique du Nord",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://moxie.foxnews.com/google-publisher/latest.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "ap-top",
+      "name": "Associated Press",
+      "country": "US",
+      "region": "Amerique du Nord",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://apnews.com/hub/ap-top-news?output=rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "nyt-home",
+      "name": "New York Times (home)",
+      "country": "US",
+      "region": "Amerique du Nord",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "wapo-world",
+      "name": "Washington Post (world)",
+      "country": "US",
+      "region": "Amerique du Nord",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://feeds.washingtonpost.com/rss/world",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "clarin-ultimo",
+      "name": "Clarin",
+      "country": "AR",
+      "region": "Amerique du Sud",
+      "lang": "es",
+      "type": "rss",
+      "url": "https://www.clarin.com/rss/lo-ultimo/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "lanacion",
+      "name": "La Nacion",
+      "country": "AR",
+      "region": "Amerique du Sud",
+      "lang": "es",
+      "type": "rss",
+      "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "eltiempo",
+      "name": "El Tiempo",
+      "country": "CO",
+      "region": "Amerique du Sud",
+      "lang": "es",
+      "type": "rss",
+      "url": "https://www.eltiempo.com/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "folha-ultima",
+      "name": "Folha de S.Paulo",
+      "country": "BR",
+      "region": "Amerique du Sud",
+      "lang": "pt",
+      "type": "rss",
+      "url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "emol",
+      "name": "Emol (El Mercurio)",
+      "country": "CL",
+      "region": "Amerique du Sud",
+      "lang": "es",
+      "type": "rss",
+      "url": "https://www.emol.com/rss/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "africanews",
+      "name": "Africanews",
+      "country": "AF",
+      "region": "Afrique",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.africanews.com/feed/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "allafrica",
+      "name": "AllAfrica",
+      "country": "AF",
+      "region": "Afrique",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "theafricareport",
+      "name": "The Africa Report",
+      "country": "AF",
+      "region": "Afrique",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.theafricareport.com/feed/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "africacom",
+      "name": "Africa.com",
+      "country": "AF",
+      "region": "Afrique",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.africa.com/feed/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "jeuneafrique",
+      "name": "Jeune Afrique",
+      "country": "AF",
+      "region": "Afrique",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://www.jeuneafrique.com/feed/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "hespress-fr",
+      "name": "Hespress FR",
+      "country": "MA",
+      "region": "Maghreb",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://fr.hespress.com/feed",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "hespress-ar",
+      "name": "Hespress AR",
+      "country": "MA",
+      "region": "Maghreb",
+      "lang": "ar",
+      "type": "rss",
+      "url": "https://www.hespress.com/feed",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "aujourdhui-ma",
+      "name": "Aujourd'hui le Maroc",
+      "country": "MA",
+      "region": "Maghreb",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://aujourdhui.ma/feed",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "lavieeco",
+      "name": "La Vie Eco",
+      "country": "MA",
+      "region": "Maghreb",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://lavieeco.com/feed",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "tsa-algerie",
+      "name": "TSA Algerie",
+      "country": "DZ",
+      "region": "Maghreb",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://www.tsa-algerie.com/feed/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "elwatan",
+      "name": "El Watan",
+      "country": "DZ",
+      "region": "Maghreb",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://elwatan-dz.com/feed",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "businessnews-tn",
+      "name": "Business News",
+      "country": "TN",
+      "region": "Maghreb",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://www.businessnews.com.tn/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "mosaiquefm",
+      "name": "Mosaique FM",
+      "country": "TN",
+      "region": "Maghreb",
+      "lang": "fr",
+      "type": "rss",
+      "url": "https://www.mosaiquefm.net/fr/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "nikkei",
+      "name": "Nikkei Asia",
+      "country": "JP",
+      "region": "Asie",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://asia.nikkei.com/rss/feed/nar",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "scmp",
+      "name": "South China Morning Post",
+      "country": "HK",
+      "region": "Asie",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.scmp.com/rss/91/feed",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "japantimes",
+      "name": "The Japan Times",
+      "country": "JP",
+      "region": "Asie",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.japantimes.co.jp/feed/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "straitstimes",
+      "name": "The Straits Times",
+      "country": "SG",
+      "region": "Asie",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.straitstimes.com/news/world/rss.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "cna",
+      "name": "Channel News Asia",
+      "country": "SG",
+      "region": "Asie",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.channelnewsasia.com/rssfeeds/8395986",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "aljazeera-all",
+      "name": "Al Jazeera",
+      "country": "QA",
+      "region": "Moyen-Orient",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "arabnews",
+      "name": "Arab News",
+      "country": "SA",
+      "region": "Moyen-Orient",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.arabnews.com/rss.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "mee",
+      "name": "Middle East Eye",
+      "country": "GB",
+      "region": "Moyen-Orient",
+      "lang": "en",
+      "type": "rss",
+      "url": "https://www.middleeasteye.net/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "gnews-world",
+      "name": "Google News (monde FR)",
+      "country": "FR",
+      "region": "Monde",
+      "lang": "fr",
+      "type": "google_news",
+      "url": "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
+      "licence": "signal"
+    },
+    {
+      "id": "gnews-afrique",
+      "name": "Google News (Afrique)",
+      "country": "AF",
+      "region": "Monde",
+      "lang": "fr",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=Afrique&hl=fr&gl=FR&ceid=FR:fr",
+      "licence": "signal"
+    },
+    {
+      "id": "gnews-maroc",
+      "name": "Google News (Maroc)",
+      "country": "MA",
+      "region": "Monde",
+      "lang": "fr",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=Maroc&hl=fr&gl=FR&ceid=FR:fr",
+      "licence": "signal"
+    },
+    {
+      "id": "gnews-algerie",
+      "name": "Google News (Algerie)",
+      "country": "DZ",
+      "region": "Monde",
+      "lang": "fr",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=Alg%C3%A9rie&hl=fr&gl=FR&ceid=FR:fr",
+      "licence": "signal"
+    },
+    {
+      "id": "gnews-tunisie",
+      "name": "Google News (Tunisie)",
+      "country": "TN",
+      "region": "Monde",
+      "lang": "fr",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=Tunisie&hl=fr&gl=FR&ceid=FR:fr",
+      "licence": "signal"
+    },
+    {
+      "id": "gnews-canada",
+      "name": "Google News (Canada)",
+      "country": "CA",
+      "region": "Monde",
+      "lang": "fr",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=Canada&hl=fr&gl=FR&ceid=FR:fr",
+      "licence": "signal"
+    },
+    {
+      "id": "gnews-asie",
+      "name": "Google News (Asie)",
+      "country": "AS",
+      "region": "Monde",
+      "lang": "fr",
+      "type": "google_news",
+      "url": "https://news.google.com/rss/search?q=Asie&hl=fr&gl=FR&ceid=FR:fr",
+      "licence": "signal"
+    },
+    {
+      "id": "api-gnews",
+      "name": "GNews API",
+      "country": "XX",
+      "region": "API",
+      "lang": "multi",
+      "type": "api",
+      "url": "https://gnews.io/api/v4/top-headlines",
+      "licence": "licensed",
+      "note": "Cle requise. 100 req/jour gratuit, 10 articles/requete."
+    },
+    {
+      "id": "api-newsapi",
+      "name": "NewsAPI.org",
+      "country": "XX",
+      "region": "API",
+      "lang": "multi",
+      "type": "api",
+      "url": "https://newsapi.org/v2/top-headlines",
+      "licence": "licensed",
+      "note": "Gratuit = developpement seulement, production interdite sans plan payant."
+    },
+    {
+      "id": "api-newsdata",
+      "name": "NewsData.io",
+      "country": "XX",
+      "region": "API",
+      "lang": "multi",
+      "type": "api",
+      "url": "https://newsdata.io/api/1/news",
+      "licence": "licensed",
+      "note": "Bon sur Afrique / Moyen-Orient. 200 credits/jour gratuit."
+    },
+    {
+      "id": "api-mediastack",
+      "name": "Mediastack",
+      "country": "XX",
+      "region": "API",
+      "lang": "multi",
+      "type": "api",
+      "url": "https://api.mediastack.com/v1/news",
+      "licence": "licensed",
+      "note": "500 req/mois gratuit, pas de production serieuse a ce prix."
+    },
+    {
+      "id": "api-currents",
+      "name": "Currents API",
+      "country": "XX",
+      "region": "API",
+      "lang": "multi",
+      "type": "api",
+      "url": "https://api.currentsapi.services/v1/latest-news",
+      "licence": "licensed",
+      "note": "600 req/jour gratuit."
+    },
+    {
+      "id": "api-serpapi",
+      "name": "SerpApi (Google News)",
+      "country": "XX",
+      "region": "API",
+      "lang": "multi",
+      "type": "api",
+      "url": "https://serpapi.com/search?engine=google_news",
+      "licence": "signal",
+      "note": "Payant. Contourne le ToS de Google News : risque juridique."
+    },
+    {
+      "id": "ansa",
+      "name": "ANSA",
+      "country": "IT",
+      "region": "Italie",
+      "lang": "it",
+      "type": "rss",
+      "url": "https://www.ansa.it/sito/ansait_rss.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "corriere",
+      "name": "Corriere della Sera",
+      "country": "IT",
+      "region": "Italie",
+      "lang": "it",
+      "type": "rss",
+      "url": "https://xml.corriereobjects.it/rss/homepage.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "repubblica",
+      "name": "La Repubblica",
+      "country": "IT",
+      "region": "Italie",
+      "lang": "it",
+      "type": "rss",
+      "url": "https://www.repubblica.it/rss/homepage/rss2.0.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "sole24ore",
+      "name": "Il Sole 24 Ore",
+      "country": "IT",
+      "region": "Italie",
+      "lang": "it",
+      "type": "rss",
+      "url": "https://www.ilsole24ore.com/rss/mondo.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "ilpost",
+      "name": "Il Post",
+      "country": "IT",
+      "region": "Italie",
+      "lang": "it",
+      "type": "rss",
+      "url": "https://www.ilpost.it/feed",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "skytg24",
+      "name": "Sky TG24",
+      "country": "IT",
+      "region": "Italie",
+      "lang": "it",
+      "type": "rss",
+      "url": "https://tg24.sky.it/rss/tg24.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "elmundo",
+      "name": "El Mundo",
+      "country": "ES",
+      "region": "Espagne",
+      "lang": "es",
+      "type": "rss",
+      "url": "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "abc-es",
+      "name": "ABC (Espana)",
+      "country": "ES",
+      "region": "Espagne",
+      "lang": "es",
+      "type": "rss",
+      "url": "https://www.abc.es/rss/feeds/abc_ultima.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "eldiario",
+      "name": "elDiario.es",
+      "country": "ES",
+      "region": "Espagne",
+      "lang": "es",
+      "type": "rss",
+      "url": "https://www.eldiario.es/rss/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "lavanguardia",
+      "name": "La Vanguardia",
+      "country": "ES",
+      "region": "Espagne",
+      "lang": "es",
+      "type": "rss",
+      "url": "https://www.lavanguardia.com/rss/home.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "europapress",
+      "name": "Europa Press",
+      "country": "ES",
+      "region": "Espagne",
+      "lang": "es",
+      "type": "rss",
+      "url": "https://www.europapress.es/rss/rss.aspx",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "aljazeera-ar",
+      "name": "Al Jazeera (arabe)",
+      "country": "QA",
+      "region": "Monde arabe",
+      "lang": "ar",
+      "type": "rss",
+      "url": "https://www.aljazeera.net/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "alarabiya",
+      "name": "Al Arabiya",
+      "country": "AE",
+      "region": "Monde arabe",
+      "lang": "ar",
+      "type": "rss",
+      "url": "https://www.alarabiya.net/ar/feed",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "aawsat",
+      "name": "Asharq Al-Awsat",
+      "country": "GB",
+      "region": "Monde arabe",
+      "lang": "ar",
+      "type": "rss",
+      "url": "https://aawsat.com/feed",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "france24-ar",
+      "name": "France 24 (arabe)",
+      "country": "FR",
+      "region": "Monde arabe",
+      "lang": "ar",
+      "type": "rss",
+      "url": "https://www.france24.com/ar/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "bbc-arabic",
+      "name": "BBC Arabic",
+      "country": "GB",
+      "region": "Monde arabe",
+      "lang": "ar",
+      "type": "rss",
+      "url": "https://feeds.bbci.co.uk/arabic/rss.xml",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "dw-ar",
+      "name": "DW (arabe)",
+      "country": "DE",
+      "region": "Monde arabe",
+      "lang": "ar",
+      "type": "rss",
+      "url": "https://rss.dw.com/rdf/rss-ar-all",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "skynews-ar",
+      "name": "Sky News Arabia",
+      "country": "AE",
+      "region": "Monde arabe",
+      "lang": "ar",
+      "type": "rss",
+      "url": "https://www.skynewsarabia.com/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "dw-de",
+      "name": "Deutsche Welle (de)",
+      "country": "DE",
+      "region": "Allemagne",
+      "lang": "de",
+      "type": "rss",
+      "url": "https://rss.dw.com/rdf/rss-de-all",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "tagesschau",
+      "name": "Tagesschau (ARD)",
+      "country": "DE",
+      "region": "Allemagne",
+      "lang": "de",
+      "type": "rss",
+      "url": "https://www.tagesschau.de/xml/rss2/",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "spiegel",
+      "name": "Der Spiegel",
+      "country": "DE",
+      "region": "Allemagne",
+      "lang": "de",
+      "type": "rss",
+      "url": "https://www.spiegel.de/schlagzeilen/index.rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "faz",
+      "name": "FAZ",
+      "country": "DE",
+      "region": "Allemagne",
+      "lang": "de",
+      "type": "rss",
+      "url": "https://www.faz.net/rss/aktuell",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "sueddeutsche",
+      "name": "Süddeutsche Zeitung",
+      "country": "DE",
+      "region": "Allemagne",
+      "lang": "de",
+      "type": "rss",
+      "url": "https://rss.sueddeutsche.de/rss/Topthemen",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "zeit",
+      "name": "Die Zeit",
+      "country": "DE",
+      "region": "Allemagne",
+      "lang": "de",
+      "type": "rss",
+      "url": "https://newsfeed.zeit.de/index",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "handelsblatt",
+      "name": "Handelsblatt",
+      "country": "DE",
+      "region": "Allemagne",
+      "lang": "de",
+      "type": "rss",
+      "url": "https://www.handelsblatt.com/contentexport/feed/schlagzeilen",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "ntv",
+      "name": "n-tv",
+      "country": "DE",
+      "region": "Allemagne",
+      "lang": "de",
+      "type": "rss",
+      "url": "https://www.n-tv.de/rss",
+      "licence": "rss_excerpt"
+    },
+    {
+      "id": "dlf",
+      "name": "Deutschlandfunk",
+      "country": "DE",
+      "region": "Allemagne",
+      "lang": "de",
+      "type": "rss",
+      "url": "https://www.deutschlandfunk.de/nachrichten-100.rss",
+      "licence": "rss_excerpt"
+    }
+  ]
+}

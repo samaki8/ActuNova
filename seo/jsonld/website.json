@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://filmonde.example/#website",
+      "url": "https://filmonde.example/",
+      "name": "Fil Monde",
+      "description": "Ce que disent des dizaines de rédactions du même événement, pays par pays.",
+      "inLanguage": ["fr", "en", "de", "es", "it"],
+      "publisher": { "@id": "https://filmonde.example/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://filmonde.example/fr/recherche?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://filmonde.example/#organization",
+      "name": "Fil Monde",
+      "url": "https://filmonde.example/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://filmonde.example/img/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "description": "Agrégateur d'actualité mondiale : synthèse et comparaison des sources, interface bilingue fr/en.",
+      "foundingDate": "2026",
+      "ethicsPolicy": "https://filmonde.example/fr/ethique",
+      "correctionsPolicy": "https://filmonde.example/fr/corrections",
+      "masthead": "https://filmonde.example/fr/a-propos",
+      "actionableFeedbackPolicy": "https://filmonde.example/fr/retrait",
+      "sameAs": [
+        "https://www.youtube.com/@filmonde",
+        "https://www.tiktok.com/@filmonde",
+        "https://www.instagram.com/filmonde",
+        "https://x.com/filmonde"
+      ],
+      "knowsAbout": [
+        "actualité internationale",
+        "Afrique francophone",
+        "Maghreb",
+        "Moyen-Orient"
+      ]
+    }
+  ]
+}

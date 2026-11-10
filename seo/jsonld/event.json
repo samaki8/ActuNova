@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://filmonde.example/fr/evenement/greve-transports-maroc-20261105#article",
+  "headline": "Grève des transports au Maroc : ce que disent 14 rédactions",
+  "alternativeHeadline": "Transport strike in Morocco: what 14 newsrooms say",
+  "description": "Quatorze rédactions marocaines et internationales couvrent la grève des transports publics. Chronologie, angles divergents et chiffres clés.",
+  "inLanguage": "fr",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-11-05T07:12:00+01:00",
+  "dateModified": "2026-11-05T16:40:00+01:00",
+  "url": "https://filmonde.example/fr/evenement/greve-transports-maroc-20261105",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://filmonde.example/fr/evenement/greve-transports-maroc-20261105"
+  },
+  "image": [
+    "https://filmonde.example/img/evenements/greve-transports-maroc-20261105-16x9.png",
+    "https://filmonde.example/img/evenements/greve-transports-maroc-20261105-4x3.png",
+    "https://filmonde.example/img/evenements/greve-transports-maroc-20261105-1x1.png"
+  ],
+  "author": { "@id": "https://filmonde.example/#organization" },
+  "publisher": { "@id": "https://filmonde.example/#organization" },
+  "about": [
+    { "@type": "Country", "name": "Maroc", "identifier": "MA" },
+    { "@type": "Thing", "name": "Transports publics" },
+    { "@type": "Thing", "name": "Grève" }
+  ],
+  "mentions": [
+    { "@type": "Organization", "name": "Hespress" },
+    { "@type": "Organization", "name": "Jeune Afrique" },
+    { "@type": "Organization", "name": "France 24" }
+  ],
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "Grève des transports : perturbations attendues à Casablanca",
+      "url": "https://fr.hespress.com/example-article-1",
+      "publisher": { "@type": "Organization", "name": "Hespress" }
+    },
+    {
+      "@type": "WebPage",
+      "name": "Maroc : les syndicats maintiennent la grève",
+      "url": "https://www.jeuneafrique.com/example-article-2",
+      "publisher": { "@type": "Organization", "name": "Jeune Afrique" }
+    },
+    {
+      "@type": "WebPage",
+      "name": "Morocco transport strike enters second day",
+      "url": "https://www.france24.com/en/example-article-3",
+      "publisher": { "@type": "Organization", "name": "France 24" }
+    }
+  ],
+  "isPartOf": { "@id": "https://filmonde.example/#website" }
+}

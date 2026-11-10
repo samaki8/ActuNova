@@ -1,0 +1,82 @@
+[
+ {
+  "n": 1,
+  "kicker": "LE RÉSUMÉ",
+  "headline": "Jeudi 5 novembre 2026",
+  "dur": 4.25,
+  "start": 0.0,
+  "say": "Le résumé de l'actualité mondiale du jeudi cinq novembre."
+ },
+ {
+  "n": 2,
+  "kicker": "FRANCE",
+  "headline": "Grève : les syndicats rejoignent",
+  "dur": 5.55,
+  "start": 4.25,
+  "say": "En France, la grève prend de l'ampleur. Les syndicats ont rejoint le mouvement."
+ },
+ {
+  "n": 3,
+  "kicker": "FRANCE",
+  "headline": "575 000",
+  "dur": 6.72,
+  "start": 9.8,
+  "say": "Entre cinq cent soixante-quinze mille et un million six cent mille manifestants, selon les sources."
+ },
+ {
+  "n": 4,
+  "kicker": "EUROPE",
+  "headline": "Vingt vols visés par des alertes",
+  "dur": 5.96,
+  "start": 16.52,
+  "say": "En Europe, une vingtaine de vols commerciaux ont été visés par des alertes à la bombe."
+ },
+ {
+  "n": 5,
+  "kicker": "ÉTATS-UNIS",
+  "headline": "Midterms : la carte politique rebattue",
+  "dur": 5.14,
+  "start": 22.48,
+  "say": "Aux États-Unis, les élections de mi-mandat rebattent la carte politique."
+ },
+ {
+  "n": 6,
+  "kicker": "CALIFORNIE",
+  "headline": "548",
+  "dur": 5.43,
+  "start": 27.62,
+  "say": "En Californie, le gouverneur a commué cinq cent quarante-huit peines de mort."
+ },
+ {
+  "n": 7,
+  "kicker": "PARAGUAY",
+  "headline": "Le président démissionne",
+  "dur": 5.55,
+  "start": 33.05,
+  "say": "Au Paraguay, le président Santiago Peña démissionne après un scandale bancaire."
+ },
+ {
+  "n": 8,
+  "kicker": "COP31",
+  "headline": "Le financement de l'adaptation manque",
+  "dur": 6.02,
+  "start": 38.6,
+  "say": "À la COP trente et un, l'ONU juge le déficit de financement de l'adaptation ahurissant."
+ },
+ {
+  "n": 9,
+  "kicker": "MAROC",
+  "headline": "Vigilance face à la menace",
+  "dur": 6.14,
+  "start": 44.62,
+  "say": "Au Maroc, le ministère de l'Intérieur appelle à la vigilance face à la menace terroriste."
+ },
+ {
+  "n": 10,
+  "kicker": "LE FIL",
+  "headline": "Chaque événement, source par source",
+  "dur": 4.9,
+  "start": 50.76,
+  "say": "C'était le résumé. Chaque événement, source par source, sur le site."
+ }
+]

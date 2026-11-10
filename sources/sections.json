@@ -1,0 +1,59 @@
+{
+  "note": "Une rubrique = une requête sauvegardée sur les axes existants (pays, région, thème). Aucune taxonomie parallèle.",
+  "sections": [
+    {
+      "slug": "a-la-une", "fr": "À la une", "en": "Top stories", "order": 0,
+      "filter": { "sort": "score", "hours": 48 },
+      "description": "Le classement automatique, tous axes confondus."
+    },
+    {
+      "slug": "france", "fr": "France", "en": "France", "order": 1,
+      "filter": { "countries": ["FR"], "hours": 48 }
+    },
+    {
+      "slug": "local", "fr": "Local", "en": "Local", "order": 2,
+      "filter": { "countries": ["FR"], "scope": "local", "hours": 72 },
+      "description": "Nécessite des sources locales et une extraction à la ville : voir la note du document."
+    },
+    {
+      "slug": "international", "fr": "International", "en": "World", "order": 3,
+      "filter": { "excludeCountries": ["FR"], "hours": 48 }
+    },
+    {
+      "slug": "economie", "fr": "Économie", "en": "Business", "order": 4,
+      "filter": { "topics": ["economie"], "hours": 72 }
+    },
+    {
+      "slug": "sciences", "fr": "Sciences", "en": "Science", "order": 5,
+      "filter": { "topics": ["sciences"], "hours": 168 }
+    },
+    {
+      "slug": "informatique", "fr": "Informatique", "en": "Technology", "order": 6,
+      "filter": { "topics": ["tech"], "hours": 168 }
+    },
+    {
+      "slug": "environnement", "fr": "Environnement", "en": "Environment", "order": 7,
+      "filter": { "topics": ["environnement"], "hours": 168 }
+    },
+    {
+      "slug": "sport", "fr": "Sport", "en": "Sport", "order": 8,
+      "filter": { "topics": ["sport"], "hours": 48 }
+    },
+    {
+      "slug": "culture", "fr": "Culture", "en": "Culture", "order": 9,
+      "filter": { "topics": ["culture"], "hours": 168 }
+    },
+    {
+      "slug": "sante", "fr": "Santé", "en": "Health", "order": 10,
+      "filter": { "topics": ["sante"], "hours": 168 }
+    },
+    {
+      "slug": "societe", "fr": "Société", "en": "Society", "order": 11,
+      "filter": { "topics": ["societe"], "hours": 168 }
+    },
+    {
+      "slug": "politique", "fr": "Politique", "en": "Politics", "order": 12,
+      "filter": { "topics": ["politique"], "hours": 72 }
+    }
+  ]
+}

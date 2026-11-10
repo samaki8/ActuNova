@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://filmonde.example/fr/pays/ma#page",
+  "url": "https://filmonde.example/fr/pays/ma",
+  "name": "Actualité du Maroc — Fil Monde",
+  "description": "Les événements qui font l'actualité au Maroc, regroupés par fait et comparés entre rédactions.",
+  "inLanguage": "fr",
+  "isAccessibleForFree": true,
+  "dateModified": "2026-11-05T16:40:00+01:00",
+  "about": {
+    "@type": "Country",
+    "name": "Maroc",
+    "identifier": "MA",
+    "sameAs": "https://www.wikidata.org/wiki/Q1028"
+  },
+  "isPartOf": { "@id": "https://filmonde.example/#website" },
+  "publisher": { "@id": "https://filmonde.example/#organization" },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": 3,
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://filmonde.example/fr/evenement/greve-transports-maroc-20261105",
+        "name": "Grève des transports au Maroc"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://filmonde.example/fr/evenement/budget-2027-maroc-20261104",
+        "name": "Le projet de budget 2027 adopté"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://filmonde.example/fr/evenement/seisme-al-haouz-bilan-20261103",
+        "name": "Séisme d'Al Haouz : le bilan actualisé"
+      }
+    ]
+  }
+}
